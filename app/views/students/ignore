@@ -1,0 +1,7 @@
+
+
+<h1><%= @student.to_s %></h1>
+<p>This student was <%=@student.active ? 'active':'inactive'%>.</p>
+<%@student.active = !@student.active%>
+
+<p>This student was <%=@student.active ? 'active':'inactive'%>.</p>
